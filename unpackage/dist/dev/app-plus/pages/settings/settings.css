@@ -1,0 +1,64 @@
+
+.container {
+		padding: 0.9375rem;
+}
+.settings-group {
+		background-color: #ffffff;
+		border-radius: 0.625rem;
+		padding: 0.9375rem;
+		margin-bottom: 0.9375rem;
+		box-shadow: 0 0.0625rem 0.3125rem rgba(0, 0, 0, 0.05);
+}
+.settings-title {
+		font-size: 1rem;
+		font-weight: bold;
+		color: #333;
+		margin-bottom: 0.625rem;
+}
+.settings-item {
+		display: flex;
+		align-items: center;
+		justify-content: space-between;
+		padding: 0.625rem 0;
+		border-bottom: 0.03125rem solid #f5f5f5;
+}
+.settings-item:last-child {
+		border-bottom: none;
+}
+.settings-item uni-text {
+		font-size: 0.875rem;
+		color: #666;
+}
+uni-input {
+		width: 3.75rem;
+		height: 1.875rem;
+		border: 0.03125rem solid #ddd;
+		border-radius: 0.3125rem;
+		padding: 0 0.625rem;
+		text-align: center;
+}
+.interval-range {
+		display: flex;
+		align-items: center;
+		gap: 0.625rem;
+}
+.radio {
+		margin-right: 0.9375rem;
+}
+.select-btn {
+		margin-top: 0.625rem;
+		padding: 0.3125rem 0.625rem;
+		background-color: #f5f5f5;
+		color: #666;
+		border: 0.03125rem solid #ddd;
+		border-radius: 0.3125rem;
+		font-size: 0.75rem;
+}
+.save-btn {
+		margin-top: 1.25rem;
+		background-color: #4CAF50;
+		color: white;
+		padding: 0.625rem 0;
+		border-radius: 1.25rem;
+		font-size: 1rem;
+}
